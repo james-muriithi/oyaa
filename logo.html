@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="assets/sweetalert/sweetalert.css">
+<body>
+	<style type="text/css">
+		@font-face{
+			font-family: james;
+			src: url(fonts/Aquatico-Regular.ttf);
+		}
+		h1{
+			letter-spacing: 2px;
+			color: #9f0202;
+			font-family: james;
+			font-size: 140px;
+		}
+		h1 span{
+			color: #d79922;
+		}
+	</style>
+<center>
+	<h1 id="foo">
+		Oy<span>a</span>a
+	</h1>
+	<button data-clipboard-target="#foo">copy</button>
+</center>
+</body>
+</html>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/sweetalert/sweetalert.min.js"></script>
+<script type="text/javascript" src="js/clipboard.min.js"></script>
+<script type="text/javascript">
+	var clipboard = new ClipboardJS('button');
+	// swal({
+ //        title: "Sorry!",
+ //        html: true,
+ //        text: '<h1><span>hello</span></h1>',
+ //        type: "error",
+ //        confirmButtonClass: "ui negative button",
+ //        confirmButtonText: "Ok",
+ //        closeOnConfirm: true
+ //    })
+</script>
